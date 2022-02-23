@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" id="ten">
+    <input type="text" id="tuoi">
+    <input type="text" id="que quan">
+    <button onclick="inra()">In ra</button>
+    <h1>Có thông tin:</h1>
+    <h1 id="tt"></h1>
+    <script>
+        function inra() {
+            let a = document.getElementById("ten").value;
+            let b = document.getElementById("tuoi").value;
+            let b = document.getElementById("que quan").value;
+            document.getElementById( 'tt').innerHTML = a+b
+        }
+    </script>
+</body>
+</html>
